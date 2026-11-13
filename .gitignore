@@ -1,0 +1,5 @@
+original/
+META-INF/
+*.jks
+*.apk
+build/

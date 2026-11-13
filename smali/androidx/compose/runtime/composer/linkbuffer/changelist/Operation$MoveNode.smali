@@ -1,0 +1,202 @@
+.class public final Landroidx/compose/runtime/composer/linkbuffer/changelist/Operation$MoveNode;
+.super Landroidx/compose/runtime/composer/linkbuffer/changelist/Operation;
+.source "SourceFile"
+
+
+# annotations
+.annotation build Landroidx/compose/runtime/internal/StabilityInferred;
+    parameters = 0x1
+.end annotation
+
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Landroidx/compose/runtime/composer/linkbuffer/changelist/Operation;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "MoveNode"
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000B\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u0008\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u000e\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\n\u0008\u00c7\u0002\u0018\u00002\u00020\u0001B\t\u0008\u0002\u00a2\u0006\u0004\u0008\u0002\u0010\u0003J\u001b\u0010\u0008\u001a\u00020\u00072\n\u0010\u0006\u001a\u00060\u0004j\u0002`\u0005H\u0016\u00a2\u0006\u0004\u0008\u0008\u0010\tJ9\u0010\u0014\u001a\u00020\u0013*\u00020\n2\n\u0010\u000c\u001a\u0006\u0012\u0002\u0008\u00030\u000b2\u0006\u0010\u000e\u001a\u00020\r2\u0006\u0010\u0010\u001a\u00020\u000f2\u0008\u0010\u0012\u001a\u0004\u0018\u00010\u0011H\u0014\u00a2\u0006\u0004\u0008\u0014\u0010\u0015R\u0012\u0010\u0018\u001a\u00020\u00048\u00c6\u0002\u00a2\u0006\u0006\u001a\u0004\u0008\u0016\u0010\u0017R\u0012\u0010\u001a\u001a\u00020\u00048\u00c6\u0002\u00a2\u0006\u0006\u001a\u0004\u0008\u0019\u0010\u0017R\u0012\u0010\u001c\u001a\u00020\u00048\u00c6\u0002\u00a2\u0006\u0006\u001a\u0004\u0008\u001b\u0010\u0017\u00a8\u0006\u001d"
+    }
+    d2 = {
+        "Landroidx/compose/runtime/composer/linkbuffer/changelist/Operation$MoveNode;",
+        "Landroidx/compose/runtime/composer/linkbuffer/changelist/Operation;",
+        "<init>",
+        "()V",
+        "",
+        "Landroidx/compose/runtime/composer/linkbuffer/changelist/IntParameter;",
+        "parameter",
+        "",
+        "intParamName",
+        "(I)Ljava/lang/String;",
+        "Landroidx/compose/runtime/composer/linkbuffer/changelist/OperationArgContainer;",
+        "Landroidx/compose/runtime/Applier;",
+        "applier",
+        "Landroidx/compose/runtime/composer/linkbuffer/SlotTableEditor;",
+        "slots",
+        "Landroidx/compose/runtime/composer/RememberManager;",
+        "rememberManager",
+        "Landroidx/compose/runtime/composer/gapbuffer/changelist/OperationErrorContext;",
+        "errorContext",
+        "Lj3/x;",
+        "execute",
+        "(Landroidx/compose/runtime/composer/linkbuffer/changelist/OperationArgContainer;Landroidx/compose/runtime/Applier;Landroidx/compose/runtime/composer/linkbuffer/SlotTableEditor;Landroidx/compose/runtime/composer/RememberManager;Landroidx/compose/runtime/composer/gapbuffer/changelist/OperationErrorContext;)V",
+        "getFrom",
+        "()I",
+        "From",
+        "getTo",
+        "To",
+        "getCount",
+        "Count",
+        "runtime"
+    }
+    k = 0x1
+    mv = {
+        0x2,
+        0x1,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# static fields
+.field public static final $stable:I
+
+.field public static final INSTANCE:Landroidx/compose/runtime/composer/linkbuffer/changelist/Operation$MoveNode;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    new-instance v0, Landroidx/compose/runtime/composer/linkbuffer/changelist/Operation$MoveNode;
+
+    invoke-direct {v0}, Landroidx/compose/runtime/composer/linkbuffer/changelist/Operation$MoveNode;-><init>()V
+
+    sput-object v0, Landroidx/compose/runtime/composer/linkbuffer/changelist/Operation$MoveNode;->INSTANCE:Landroidx/compose/runtime/composer/linkbuffer/changelist/Operation$MoveNode;
+
+    return-void
+.end method
+
+.method private constructor <init>()V
+    .locals 6
+
+    const/4 v4, 0x6
+
+    const/4 v5, 0x0
+
+    const/4 v1, 0x3
+
+    const/4 v2, 0x0
+
+    const/4 v3, 0x0
+
+    move-object v0, p0
+
+    invoke-direct/range {v0 .. v5}, Landroidx/compose/runtime/composer/linkbuffer/changelist/Operation;-><init>(IIZILkotlin/jvm/internal/g;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public execute(Landroidx/compose/runtime/composer/linkbuffer/changelist/OperationArgContainer;Landroidx/compose/runtime/Applier;Landroidx/compose/runtime/composer/linkbuffer/SlotTableEditor;Landroidx/compose/runtime/composer/RememberManager;Landroidx/compose/runtime/composer/gapbuffer/changelist/OperationErrorContext;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Landroidx/compose/runtime/composer/linkbuffer/changelist/OperationArgContainer;",
+            "Landroidx/compose/runtime/Applier<",
+            "*>;",
+            "Landroidx/compose/runtime/composer/linkbuffer/SlotTableEditor;",
+            "Landroidx/compose/runtime/composer/RememberManager;",
+            "Landroidx/compose/runtime/composer/gapbuffer/changelist/OperationErrorContext;",
+            ")V"
+        }
+    .end annotation
+
+    const/4 p0, 0x0
+
+    invoke-interface {p1, p0}, Landroidx/compose/runtime/composer/linkbuffer/changelist/OperationArgContainer;->getInt(I)I
+
+    move-result p0
+
+    const/4 p3, 0x1
+
+    invoke-interface {p1, p3}, Landroidx/compose/runtime/composer/linkbuffer/changelist/OperationArgContainer;->getInt(I)I
+
+    move-result p3
+
+    const/4 p4, 0x2
+
+    invoke-interface {p1, p4}, Landroidx/compose/runtime/composer/linkbuffer/changelist/OperationArgContainer;->getInt(I)I
+
+    move-result p1
+
+    invoke-interface {p2, p0, p3, p1}, Landroidx/compose/runtime/Applier;->move(III)V
+
+    return-void
+.end method
+
+.method public final getCount()I
+    .locals 0
+
+    const/4 p0, 0x2
+
+    return p0
+.end method
+
+.method public final getFrom()I
+    .locals 0
+
+    const/4 p0, 0x0
+
+    return p0
+.end method
+
+.method public final getTo()I
+    .locals 0
+
+    const/4 p0, 0x1
+
+    return p0
+.end method
+
+.method public intParamName(I)Ljava/lang/String;
+    .locals 1
+
+    if-nez p1, :cond_0
+
+    const-string p0, "from"
+
+    return-object p0
+
+    :cond_0
+    const/4 v0, 0x1
+
+    if-ne p1, v0, :cond_1
+
+    const-string p0, "to"
+
+    return-object p0
+
+    :cond_1
+    const/4 v0, 0x2
+
+    if-ne p1, v0, :cond_2
+
+    const-string p0, "count"
+
+    return-object p0
+
+    :cond_2
+    invoke-super {p0, p1}, Landroidx/compose/runtime/composer/linkbuffer/changelist/Operation;->intParamName(I)Ljava/lang/String;
+
+    move-result-object p0
+
+    return-object p0
+.end method
